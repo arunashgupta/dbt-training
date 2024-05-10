@@ -9,6 +9,7 @@
 
 {{ config(materialized='table') }}
 
+Use warehouse "compute_WH";
 with source_data as (
 
     select 1 as id
